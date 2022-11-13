@@ -3,6 +3,8 @@ import { Col, Row } from "reactstrap";
 import Button from "../CustomFiles/Button";
 import { Instagram, Twitter, Facebook, GitHub } from "react-feather";
 import pharmacist from "../image/ddd.png";
+import whitepaper from '../DrugCipher.pdf'
+
 export default function Section1() {
   return (
     <div className="section1_whole">
@@ -18,11 +20,13 @@ export default function Section1() {
                   Health is wealth. Live longer and healthier when you trust
                   DrugCipher for total wellness.
                 </p>
-                <Button
-                  className={"market_place_btn"}
-                  btnText={"Download Our WhitePaper"}
-                  style={{ marginRight: 10 }}
-                />
+                <a href={whitepaper} download='DrugCipher-Whitepaper'>
+                  <Button
+                    className={"market_place_btn"}
+                    btnText={"Download Our WhitePaper"}
+                    style={{ marginRight: 10 }}
+                  />
+                </a>
                 <Button
                   className={"market_place_btn doctor_btn"}
                   btnText={"Launch DrugCipher App"}
@@ -30,22 +34,22 @@ export default function Section1() {
                 <p className="m-0 mt-5 text-white follow-us">Follow us</p>
                 <div className="header-icons-div mt-2">
                   <div className="header-icon">
-                    <a style={{color:'white'}} className='' href='https://github.com/ysquareimperial/drug-cipher' target='_blank' rel="noreferrer">
+                    <a style={{ color: 'white' }} className='' href='https://github.com/ysquareimperial/drug-cipher' target='_blank' rel="noreferrer">
                       <GitHub size="1.5em" />
                     </a>
                   </div>
                   <div className="header-icon">
-                    <a style={{color:'white'}} className='' href='https://twitter.com/drugcipher' target='_blank' rel="noreferrer">
+                    <a style={{ color: 'white' }} className='' href='https://twitter.com/drugcipher' target='_blank' rel="noreferrer">
                       <Twitter size="1.5em" />
                     </a>
                   </div>
                   <div className="header-icon">
-                    <a style={{color:'white'}} className='' href='https://fb.me/drugcipher' target='_blank' rel="noreferrer">
+                    <a style={{ color: 'white' }} className='' href='https://fb.me/drugcipher' target='_blank' rel="noreferrer">
                       <Facebook size="1.5em" />
                     </a>
                   </div>
                   <div className="header-icon">
-                    <a style={{color:'white'}} className='' href='https://instagram.com/drugcipher' target='_blank' rel="noreferrer">
+                    <a style={{ color: 'white' }} className='' href='https://instagram.com/drugcipher' target='_blank' rel="noreferrer">
                       <Instagram size="1.5em" />
                     </a>
                   </div>

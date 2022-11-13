@@ -804,3 +804,20 @@ a:hover {
   color: var(--whiteColor);
   cursor: pointer;
 }
+
+
+.four_head {
+  font-weight: bold;
+  font-size: 1200%;
+  color: #03416e;
+}
+
+.four_p{
+  margin: 0;
+  color: #029f41;
+  font-weight: bold;
+  font-size: 30px;
+}
+.four_m{
+  color: #03416e;
+}
