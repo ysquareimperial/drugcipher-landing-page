@@ -159,6 +159,13 @@
     /* height: 100%; */
   }
   
+.dnl{
+  color: var(--whiteColor);
+}
+.dnl:hover{
+color: var(--primaryColor2);
+}
+
   .expired_drug {
     height: 27.5vh;
     display: flex;

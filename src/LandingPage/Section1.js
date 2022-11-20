@@ -20,15 +20,13 @@ export default function Section1() {
                   Health is wealth. Live longer and healthier when you trust
                   DrugCipher for total wellness.
                 </p>
-                <a href={whitepaper} download='DrugCipher-Whitepaper'>
-                  <Button
-                    className={"market_place_btn"}
-                    btnText={"Download Our WhitePaper"}
-                    style={{ marginRight: 10 }}
-                  />
-                </a>
+
+                <button
+                  className="market_place_btn nnnn"
+                  style={{ marginRight: 10 }}
+                > <a href={whitepaper} download='DrugCipher-Whitepaper' className="dnl">Download Our Whitepaper</a></button>
                 <Button
-                  className={"market_place_btn doctor_btn"}
+                  className={"market_place_btn doctor_btn "}
                   btnText={"Launch DrugCipher App"}
                 />
                 <p className="m-0 mt-5 text-white follow-us">Follow us</p>

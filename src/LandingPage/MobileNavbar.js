@@ -15,7 +15,7 @@ export default function MobileNavbar() {
                 </Col>
                 <Col xl={2} lg={2} md={2} sm={2} xs={2}></Col>
                 <Col xl={2} lg={2} md={6} sm={6} xs={6}>
-                    <a href='http://app.drugcipher.com' target='_blank' rel='noreferrer'>
+                    <a href='https://app.drugcipher.com' target='_blank' rel='noreferrer'>
                         <Button className={'market_place_btn mt-3'} style={{ float: 'right' }} btnText={'Register'} />
                     </a>
                 </Col>

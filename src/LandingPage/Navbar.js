@@ -37,7 +37,7 @@ export default function Navbar() {
                 <Col xl={2} lg={2} md={6} sm={6} xs={6}>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75px' }} >
                         <div>
-                            <a href='http://app.drugcipher.com' target='_blank' rel='noreferrer'>
+                            <a href='https://app.drugcipher.com' target='_blank' rel='noreferrer'>
                                 <Button className={'market_place_btn'} btnText={'Register'}
                                 />
                             </a>
