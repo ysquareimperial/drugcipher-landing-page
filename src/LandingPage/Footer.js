@@ -1,6 +1,6 @@
 import React from 'react'
 import { Instagram, Twitter, Facebook } from 'react-feather'
-import whitepaper from '../DrugCipher.pdf'
+// import whitepaper from '../DrugCipher.pdf'
 import { Col, Row } from 'reactstrap'
 import drugcipherIcon from '../image/DRUG CIPHER (2).png'
 
@@ -48,9 +48,9 @@ export default function Footer() {
                 <Col xl={3} lg={3} md={12} sm={12} xs={12}>
                     <h5 style={{ fontWeight: 'bold' }}>Documents</h5>
                     <p>
-                        <a href={whitepaper} target="_blank" rel='noreferrer' className='' style={{ color: 'rgb(3, 66, 110)' }}>
+                        {/* <a href='' target="_blank" rel='noreferrer' className='' style={{ color: 'rgb(3, 66, 110)' }}> */}
                             DrugCipher Whitepaper
-                        </a>
+                        {/* </a> */}
                     </p>
                     <p>DrugCipher Deck</p>
                     <p>
