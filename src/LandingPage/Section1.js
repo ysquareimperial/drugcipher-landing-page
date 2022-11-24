@@ -3,7 +3,7 @@ import { Col, Row } from "reactstrap";
 import Button from "../CustomFiles/Button";
 import { Instagram, Twitter, Facebook, GitHub } from "react-feather";
 import pharmacist from "../image/ddd.png";
-// import whitepaper from '../DrugCipher.pdf'
+import whitepaper from '../DrugCipher.pdf'
 
 export default function Section1() {
   return (
@@ -25,8 +25,8 @@ export default function Section1() {
                   className="market_place_btn nnnn"
                   style={{ marginRight: 10 }}
                 >
-                  {/* <a href={whitepaper} download='DrugCipher-Whitepaper' className="dnl">Download Our Whitepaper</a> */}
-                  Download Our Whitepaper
+                  <a href={whitepaper} download='DrugCipher-Whitepaper' className="dnl">Download Our Whitepaper</a>
+                
                 </button>
                 <Button
                   className={"market_place_btn doctor_btn "}

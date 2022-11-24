@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Row } from 'reactstrap'
 import Clock from 'react-live-clock';
 import { Instagram, Twitter, Facebook, GitHub } from 'react-feather'
-// import whitepaper from '../DrugCipher.pdf'
+import whitepaper from '../DrugCipher.pdf'
 export default function HeaderInfo() {
     // const date = new Date()
     // const currentYear = date.getFullYear()
@@ -20,9 +20,9 @@ export default function HeaderInfo() {
                     <div className='paper-div'>
                         <div className='paper-div-item'>
                             <p>
-                                {/* <a href={whitepaper} rel='noreferrer' target="_blank" className='text-secondary'> */}
+                                <a href={whitepaper} rel='noreferrer' target="_blank" className='text-secondary'>
                                     Whitepaper
-                                {/* </a> */}
+                                </a>
                             </p>
                         </div>
                     </div>
