@@ -36,7 +36,7 @@ export default function HeaderInfo() {
                 <Col md={2}>
                     <div className='header-icons-div'>
                         <div className='header-icon'>
-                            <a style={{color:'white'}} className='' href='https://github.com/ysquareimperial/drug-cipher' target='_blank' rel="noreferrer">
+                            <a style={{color:'white'}} className='' href='https://github.com/ysquareimperial/drugcipher' target='_blank' rel="noreferrer">
                                 <GitHub size='1em' />
                             </a>
                         </div>
