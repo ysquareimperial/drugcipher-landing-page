@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
-import Button from "../CustomFiles/Button";
+// import Button from "../CustomFiles/Button";
 import { Instagram, Twitter, Facebook, GitHub } from "react-feather";
 import pharmacist from "../image/ddd.png";
 import whitepaper from '../DrugCipher.pdf'
@@ -28,10 +28,7 @@ export default function Section1() {
                   <a href={whitepaper} download='DrugCipher-Whitepaper' className="dnl">Download Our Whitepaper</a>
 
                 </button>
-                {/* <Button
-                  className={"market_place_btn doctor_btn "}
-                  btnText={"Launch DrugCipher App"}
-                /> */}
+               
                 <button className="market_place_btn doctor_btn">
                   <a href='https://drive.google.com/u/0/uc?id=1ItCyUgC4QYclN3CyV-qBd179bhzQE9Z3&export=download' target='_blank' rel="noreferrer" style={{color:'rgb(3, 66, 110)'}}>
                     Launch DrugCipher App
@@ -42,7 +39,7 @@ export default function Section1() {
                   <div className="header-icon">
                     <a style={{ color: 'white' }} className='' href='https://github.com/ysquareimperial/drugcipher' target='_blank' rel="noreferrer">
                       <GitHub size="1.5em" />
-                    </a>
+                    </a>    
                   </div>
                   <div className="header-icon">
                     <a style={{ color: 'white' }} className='' href='https://twitter.com/drugcipher' target='_blank' rel="noreferrer">

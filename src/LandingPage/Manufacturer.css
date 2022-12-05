@@ -1,6 +1,6 @@
 :root {
     --primaryColor: black;
-    --primaryColor2: /
+    --primaryColor2: rgb(3, 66, 110);
     --secondaryColor: rgb(54, 54, 54);
     --secondaryColor2: rgb(34, 34, 34);
     --secondaryColor3: rgb(128, 209, 1);
@@ -309,10 +309,7 @@ color: var(--primaryColor2);
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
   }
-  .avatar img {
-    /* width: 100%;
-    height: auto; */
-  }
+
   .register_heading {
     font-weight: bold;
     color: var(--primaryColor2);
@@ -353,8 +350,7 @@ color: var(--primaryColor2);
     width: 20%;
     border-radius: 50%;
   }
-  .emoji_div {
-  }
+
   label[for='file-input'] {
     display: inline-block;
     margin-bottom: 1em;
