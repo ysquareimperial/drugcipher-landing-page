@@ -47,7 +47,7 @@ export default function RoadMap() {
           <div className="cd-timeline-img cd-location"></div>
           <div className="cd-timeline-content">
             <h2>Complete equity raise.</h2>
-            <p>Complete equity raise and 2000 number of near wallets created.</p>
+            <p>Complete equity raise and 600 number of near wallets created weekly.</p>
             {/* <span className="cd-date">Jan 18</span> */}
           </div>
         </div>

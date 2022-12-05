@@ -3,7 +3,7 @@ import Button from "../CustomFiles/Button";
 import "../CustomFiles/InputFields.css";
 import { useState } from "react";
 import { toast } from "react-toastify";
-import { NotificationError, NotificationSuccess } from "../utils/Notification";
+import { Notification, NotificationError, NotificationSuccess } from "../utils/Notification";
 import { _postApi } from "../utils/helper";
 import { Form } from "reactstrap";
 export default function NewsLetter() {
@@ -17,12 +17,13 @@ export default function NewsLetter() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     setLoading(true);
     _postApi(
       "/v1/create-news-letter",
       { email: sendEmail.email },
       (res) => {
+        console.log(res);
         if (res.success) {
           toast(<NotificationSuccess text="Successfully" />);
           setLoading(false);
@@ -39,11 +40,7 @@ export default function NewsLetter() {
   return (
     <Form onSubmit={handleSubmit}>
       <div className="text-center news_letter_section p-5">
-        <h1
-          className="heading_two"
-        >
-          Newsletter
-        </h1>
+        <h1 className="heading_two">Newsletter</h1>
         <p className="sub_heading text-white">
           Subscribe to our news letter for more updates
         </p>
@@ -64,6 +61,8 @@ export default function NewsLetter() {
           type="submit"
         />
       </div>
+      
+      <Notification />
     </Form>
   );
 }
