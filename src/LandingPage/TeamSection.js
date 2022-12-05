@@ -11,7 +11,7 @@ export default function TeamSection() {
     {
       image: yasir,
       content: `I am Yasir Ado Hassan, Software Engineer with years of 
-            experience in software development. I use different technologies 
+            experience in web development. I use different technologies 
             to create softwares that provide solutions to problems.`,
       name: "Yasir Ado Hassan",
       title: "Chief Executive Officer",
