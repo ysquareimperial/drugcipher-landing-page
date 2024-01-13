@@ -76,7 +76,7 @@ export default function Navbar() {
             >
               <div>
                 <a
-                  href="https://app.drugcipher.com"
+                  href="https://8790fahad.github.io/drugcipher"
                   target="_blank"
                   rel="noreferrer"
                 >
