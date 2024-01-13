@@ -1,35 +1,38 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
-import gana from "../image/gana.png";
-import prcl from "../image/prcl.JPG";
-import yasir from "../image/yasir.png";
-import salem from "../image/salem1.JPG";
+// import gana from "../image/gana.png";
+// import prcl from "../image/prcl.JPG";
+import yasir from "../image/yasir.jpg";
+// import salem from "../image/salem1.JPG";
 import "./FlipCard.css";
 import fahad from "../image/fahad.png";
 export default function TeamSection() {
   const ourTeam = [
+    {
+      image: fahad,
+      content: `Muhammad Fahad is a certified Blockchain/NEAR developer with over 5
+      years experience in software development. Muhammad Fahad
+      worked in building tech startups related to Health Care
+      System.`,
+      name: "Muhammad Fahad Ado",
+      title: "Founder",
+    },
     {
       image: yasir,
       content: `I am Yasir Ado Hassan, Software Engineer with years of 
             experience in web development. I use different technologies 
             to create softwares that provide solutions to problems.`,
       name: "Yasir Ado Hassan",
-      title: "Chief Executive Officer",
-      // animation: "fade-right",
+      title: "Co-Founder",
+      // animation: "fade-right", 
     },
-    {
-      image: gana,
-      content: `The Ahmad Gana is a Pharmacist with over 30 years working experience in a Pharmaceutical Industry, Ahmad Gana wants to change the world by making it easier for peaople to have access to the authentic drugs.`,
-      name: "Ahmad Gana",
-      title: "Pharmacist/Advisor",
-    },
-    {
-      image: prcl,
-      content: `Adepoju Priscillia is a creative UI/UX designer helping brands visualize their products, she's a B.tech degree holder in Pure and Applied Chemistry (LAUTECH). She's also a good content writer/creator, brand influencer and product and graphic designer.`,
-      name: "Adepoju Priscillia",
-      title: "Content Creator/UI/UX Designer",
-      // animation: "fade-left",
-    },
+    // {
+    //   image: prcl,
+    //   content: `Adepoju Priscillia is a creative UI/UX designer helping brands visualize their products, she's a B.tech degree holder in Pure and Applied Chemistry (LAUTECH). She's also a good content writer/creator, brand influencer and product and graphic designer.`,
+    //   name: "Adepoju Priscillia",
+    //   title: "Content Creator/UI/UX Designer",
+    //   // animation: "fade-left",
+    // },
   ];
 
   return (
@@ -45,6 +48,7 @@ export default function TeamSection() {
 
       <div className="text-center" style={{ marginTop: 70 }}>
         <Row>
+          <Col xl={2} lg={2}></Col>
           {ourTeam.map((item) => (
             <Col
               xl={4}
@@ -82,8 +86,10 @@ export default function TeamSection() {
               </div>
             </Col>
           ))}
+          <Col xl={2} lg={2}></Col>
         </Row>
-        <Row className="our_team_second_row">
+        {/* 
+         <Row className="our_team_second_row">
           <Col md={2}></Col>
           <Col xl={4} lg={4} md={12} sm={12} xs={12} className="mb-5">
             <div className="flip whole_flip pb-3">
@@ -91,10 +97,8 @@ export default function TeamSection() {
                 className="front"
                 style={{ backgroundImage: `url(${fahad})` }}
               >
-                {/* <h1 className="text-shadow">OCEAN</h1> */}
               </div>
               <div className="back" style={{}}>
-                {/* <h4>Salem Ododa</h4> */}
                 <div
                   style={{
                     display: "flex",
@@ -123,7 +127,6 @@ export default function TeamSection() {
                 className="front"
                 style={{ backgroundImage: `url(${salem})` }}
               >
-                {/* <h1 className="text-shadow">OCEAN</h1> */}
               </div>
               <div className="back" style={{}}>
                 <div
@@ -148,9 +151,8 @@ export default function TeamSection() {
               <h6 className="our_team_rank mt-2">Backend Engineer</h6>
             </div>
           </Col>
-
           <Col md={2}></Col>
-        </Row>
+        </Row>  */}
       </div>
     </div>
   );

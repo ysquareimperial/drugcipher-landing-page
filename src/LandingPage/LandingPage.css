@@ -7,21 +7,22 @@
   --whiteColor: white;
   --subHeadingColor: rgb(180, 180, 180);
 }
-*{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-a{
+a {
   text-decoration: none !important;
 }
 .nav_bar {
   /* background-color: black; */
   color: var(--whiteColor);
-  height: 75px;
-  position: sticky;
-  top: 0;
+  height: 11vh;
+  /* height: 100vh; */
+  /* position: sticky; */
+  /* top: 0; */
   width: 100%;
   background-color: var(--primaryColor2);
-  z-index: 1;
+  /* z-index: 1; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .nav_menu {
@@ -54,7 +55,7 @@ a{
   background-color: var(--primaryColor2);
   background: var(--primaryColor2);
   /* height: 50vh; */
-  height: 100vh;
+  height: 85vh;
   /* width: 100%; */
   /* position: relative; */
 }
@@ -63,7 +64,7 @@ a{
   font-weight: bold;
   font-size: 400%;
   color: var(--whiteColor);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .heading_div {
   height: 85vh;
@@ -711,25 +712,24 @@ a{
   .footer_desc {
     display: none;
   }
- 
 
   .section1_whole {
     background-color: var(--primaryColor2);
     /* background: var(--primaryColor2); */
     /* height: 50vh; */
-    height:max-content; 
+    height: max-content;
     text-align: center;
     /* width: 100%; */
     /* position: relative; */
   }
-  .market_place_btn{
+  .market_place_btn {
     margin-bottom: 20px;
   }
   .heading {
     font-weight: bold;
     font-size: 300%;
     color: var(--whiteColor);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
   .header-icons-div {
@@ -755,7 +755,7 @@ a{
   .mobile_heading_div {
     margin-top: 50px;
   }
-  .heading_div{
+  .heading_div {
     height: 100%;
   }
   .small_header {
@@ -805,19 +805,18 @@ a:hover {
   cursor: pointer;
 }
 
-
 .four_head {
   font-weight: bold;
   font-size: 1200%;
   color: #03416e;
 }
 
-.four_p{
+.four_p {
   margin: 0;
   color: #029f41;
   font-weight: bold;
   font-size: 30px;
 }
-.four_m{
+.four_m {
   color: #03416e;
 }
