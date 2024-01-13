@@ -33,13 +33,13 @@ export default function HeaderInfo() {
           </div>
         </Col>
         <Col md={8}>
-          <p className="m-0" style={{fontSize:13}}>
+          <p className="m-0" style={{ fontSize: 13 }}>
             <marquee className="m-0" style={{ color: "white" }}>
               <Clock
                 filter={(date) => date.replace("8", "7a")}
                 format={"HH:mm:ss, dddd, MMMM Mo, YYYY"}
                 ticking={true}
-                style={{margin:'0'}}
+                style={{ margin: "0" }}
               />
               {". "}
             </marquee>
